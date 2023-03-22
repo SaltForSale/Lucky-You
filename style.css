@@ -1,0 +1,21 @@
+body {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-size: cover;
+}
+hr{
+    border:0px;
+}
+.boxxed{
+    border-width:10px;
+    border:solid;
+    border-color:black;
+    background-color:rgb(0, 90, 0);
+    margin:10px;
+    margin-left:35%;
+    margin-right:35%;
+    color:white;
+    padding:20px;
+}

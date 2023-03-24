@@ -35,48 +35,58 @@
       </div>
       <hr />
       <hr />
-      <div class="col boxxed">
-        <div class="row">
-          <center>
-            <label for="nameField">Name:</label>
-            <input
-              id="nameField"
-              name="nameField"
-              type="text"
-              class="textfield"
-              value="First and Last Name"
-              onfocus="clearName()"
-              onblur="resetName()"
-            />
-          </center>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3 boxxed">
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <div class="row">
+            <center>
+              <label for="nameField">Name:</label>
+              <input
+                id="nameField"
+                name="nameField"
+                type="text"
+                class="textfield"
+                value="First and Last Name"
+                onfocus="clearName()"
+                onblur="resetName()"
+              />
+            </center>
+          </div>
+          <hr />
+          <div class="row">
+            <center>
+              <label for="mailField">E-Mail:</label>
+              <input
+                id="mailField"
+                name="mailField"
+                type="text"
+                class="textfield"
+                value="example: example@gmail.com"
+                onfocus="clearMail()"
+                onblur="resetMail()"
+              />
+            </center>
+          </div>
+          <hr />
+          <div class="row">
+            <center>
+              <input
+                id="submit"
+                type="submit"
+                name="submit"
+                value="Sign Me Up!"
+                onfocus="alertThx()"
+              />
+            </center>
+          </div>
         </div>
-        <hr />
-        <div class="row">
-          <center>
-            <label for="mailField">E-Mail:</label>
-            <input
-              id="mailField"
-              name="mailField"
-              type="text"
-              class="textfield"
-              value="example: example@gmail.com"
-              onfocus="clearMail()"
-              onblur="resetMail()"
-            />
-          </center>
-        </div>
-        <hr />
-        <div class="row">
-          <center>
-            <input
-              id="submit"
-              type="submit"
-              name="submit"
-              value="Sign Me Up!"
-              onfocus="alertThx()"
-            />
-          </center>
-        </div>
+        <div class="col-md-3"><img src="lotteryLogo.png" class="resize" /></div>
+        <div class="col-md-3"></div>
       </div>
     </div>
     <script

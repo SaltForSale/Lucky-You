@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   background-position: 50% 0;
   background-size: cover;
-  color:#498928
+  color: #498928;
 }
 hr {
   border: 0px;
@@ -19,6 +19,19 @@ hr {
   padding: 20px;
 }
 .resize {
-  height: 434px;
-  width: 480px;
+  height: 325.5px;
+  width: 360px;
+}
+footer {
+  background-color: #498928;
+  color: white;
+}
+.centered {
+  margin: auto;
+  width: 50%;
+  background-color: #498928;
+  padding: 10px;
+}
+a{
+  color:white;
 }
